@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129FB9C41EA7564000B97D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9C31EA7564000B97D79 /* main.m */; };
+		129FB9C71EA7564000B97D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9C61EA7564000B97D79 /* AppDelegate.m */; };
+		129FB9CA1EA7564000B97D79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9C91EA7564000B97D79 /* ViewController.m */; };
+		129FB9CD1EA7564000B97D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9CB1EA7564000B97D79 /* Main.storyboard */; };
+		129FB9D01EA7564000B97D79 /* AllInOneCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9CE1EA7564000B97D79 /* AllInOneCard.xcdatamodeld */; };
+		129FB9D21EA7564000B97D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9D11EA7564000B97D79 /* Assets.xcassets */; };
+		129FB9D51EA7564000B97D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 129FB9D31EA7564000B97D79 /* LaunchScreen.storyboard */; };
+		129FB9E01EA7564100B97D79 /* AllInOneCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9DF1EA7564100B97D79 /* AllInOneCardTests.m */; };
+		129FB9EB1EA7564100B97D79 /* AllInOneCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 129FB9EA1EA7564100B97D79 /* AllInOneCardUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		129FB9DC1EA7564100B97D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 129FB9B71EA7564000B97D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 129FB9BE1EA7564000B97D79;
+			remoteInfo = AllInOneCard;
+		};
+		129FB9E71EA7564100B97D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 129FB9B71EA7564000B97D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 129FB9BE1EA7564000B97D79;
+			remoteInfo = AllInOneCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		129FB9BF1EA7564000B97D79 /* AllInOneCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllInOneCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		129FB9C31EA7564000B97D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		129FB9C51EA7564000B97D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		129FB9C61EA7564000B97D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		129FB9C81EA7564000B97D79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		129FB9C91EA7564000B97D79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		129FB9CC1EA7564000B97D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		129FB9CF1EA7564000B97D79 /* AllInOneCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AllInOneCard.xcdatamodel; sourceTree = "<group>"; };
+		129FB9D11EA7564000B97D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		129FB9D41EA7564000B97D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		129FB9D61EA7564000B97D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129FB9DB1EA7564100B97D79 /* AllInOneCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllInOneCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		129FB9DF1EA7564100B97D79 /* AllInOneCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllInOneCardTests.m; sourceTree = "<group>"; };
+		129FB9E11EA7564100B97D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129FB9E61EA7564100B97D79 /* AllInOneCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllInOneCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		129FB9EA1EA7564100B97D79 /* AllInOneCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllInOneCardUITests.m; sourceTree = "<group>"; };
+		129FB9EC1EA7564100B97D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129FB9BC1EA7564000B97D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9D81EA7564100B97D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9E31EA7564100B97D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129FB9B61EA7564000B97D79 = {
+			isa = PBXGroup;
+			children = (
+				129FB9C11EA7564000B97D79 /* AllInOneCard */,
+				129FB9DE1EA7564100B97D79 /* AllInOneCardTests */,
+				129FB9E91EA7564100B97D79 /* AllInOneCardUITests */,
+				129FB9C01EA7564000B97D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		129FB9C01EA7564000B97D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				129FB9BF1EA7564000B97D79 /* AllInOneCard.app */,
+				129FB9DB1EA7564100B97D79 /* AllInOneCardTests.xctest */,
+				129FB9E61EA7564100B97D79 /* AllInOneCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		129FB9C11EA7564000B97D79 /* AllInOneCard */ = {
+			isa = PBXGroup;
+			children = (
+				129FB9C51EA7564000B97D79 /* AppDelegate.h */,
+				129FB9C61EA7564000B97D79 /* AppDelegate.m */,
+				129FB9C81EA7564000B97D79 /* ViewController.h */,
+				129FB9C91EA7564000B97D79 /* ViewController.m */,
+				129FB9CB1EA7564000B97D79 /* Main.storyboard */,
+				129FB9D11EA7564000B97D79 /* Assets.xcassets */,
+				129FB9D31EA7564000B97D79 /* LaunchScreen.storyboard */,
+				129FB9D61EA7564000B97D79 /* Info.plist */,
+				129FB9CE1EA7564000B97D79 /* AllInOneCard.xcdatamodeld */,
+				129FB9C21EA7564000B97D79 /* Supporting Files */,
+			);
+			path = AllInOneCard;
+			sourceTree = "<group>";
+		};
+		129FB9C21EA7564000B97D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				129FB9C31EA7564000B97D79 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		129FB9DE1EA7564100B97D79 /* AllInOneCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				129FB9DF1EA7564100B97D79 /* AllInOneCardTests.m */,
+				129FB9E11EA7564100B97D79 /* Info.plist */,
+			);
+			path = AllInOneCardTests;
+			sourceTree = "<group>";
+		};
+		129FB9E91EA7564100B97D79 /* AllInOneCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				129FB9EA1EA7564100B97D79 /* AllInOneCardUITests.m */,
+				129FB9EC1EA7564100B97D79 /* Info.plist */,
+			);
+			path = AllInOneCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		129FB9BE1EA7564000B97D79 /* AllInOneCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129FB9EF1EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCard" */;
+			buildPhases = (
+				129FB9BB1EA7564000B97D79 /* Sources */,
+				129FB9BC1EA7564000B97D79 /* Frameworks */,
+				129FB9BD1EA7564000B97D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllInOneCard;
+			productName = AllInOneCard;
+			productReference = 129FB9BF1EA7564000B97D79 /* AllInOneCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		129FB9DA1EA7564100B97D79 /* AllInOneCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129FB9F21EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCardTests" */;
+			buildPhases = (
+				129FB9D71EA7564100B97D79 /* Sources */,
+				129FB9D81EA7564100B97D79 /* Frameworks */,
+				129FB9D91EA7564100B97D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129FB9DD1EA7564100B97D79 /* PBXTargetDependency */,
+			);
+			name = AllInOneCardTests;
+			productName = AllInOneCardTests;
+			productReference = 129FB9DB1EA7564100B97D79 /* AllInOneCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		129FB9E51EA7564100B97D79 /* AllInOneCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129FB9F51EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCardUITests" */;
+			buildPhases = (
+				129FB9E21EA7564100B97D79 /* Sources */,
+				129FB9E31EA7564100B97D79 /* Frameworks */,
+				129FB9E41EA7564100B97D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				129FB9E81EA7564100B97D79 /* PBXTargetDependency */,
+			);
+			name = AllInOneCardUITests;
+			productName = AllInOneCardUITests;
+			productReference = 129FB9E61EA7564100B97D79 /* AllInOneCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		129FB9B71EA7564000B97D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Hutong;
+				TargetAttributes = {
+					129FB9BE1EA7564000B97D79 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X8KZH3TTFJ;
+						ProvisioningStyle = Automatic;
+					};
+					129FB9DA1EA7564100B97D79 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X8KZH3TTFJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 129FB9BE1EA7564000B97D79;
+					};
+					129FB9E51EA7564100B97D79 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X8KZH3TTFJ;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 129FB9BE1EA7564000B97D79;
+					};
+				};
+			};
+			buildConfigurationList = 129FB9BA1EA7564000B97D79 /* Build configuration list for PBXProject "AllInOneCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 129FB9B61EA7564000B97D79;
+			productRefGroup = 129FB9C01EA7564000B97D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				129FB9BE1EA7564000B97D79 /* AllInOneCard */,
+				129FB9DA1EA7564100B97D79 /* AllInOneCardTests */,
+				129FB9E51EA7564100B97D79 /* AllInOneCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		129FB9BD1EA7564000B97D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129FB9D51EA7564000B97D79 /* LaunchScreen.storyboard in Resources */,
+				129FB9D21EA7564000B97D79 /* Assets.xcassets in Resources */,
+				129FB9CD1EA7564000B97D79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9D91EA7564100B97D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9E41EA7564100B97D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129FB9BB1EA7564000B97D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129FB9CA1EA7564000B97D79 /* ViewController.m in Sources */,
+				129FB9D01EA7564000B97D79 /* AllInOneCard.xcdatamodeld in Sources */,
+				129FB9C71EA7564000B97D79 /* AppDelegate.m in Sources */,
+				129FB9C41EA7564000B97D79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9D71EA7564100B97D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129FB9E01EA7564100B97D79 /* AllInOneCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		129FB9E21EA7564100B97D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129FB9EB1EA7564100B97D79 /* AllInOneCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		129FB9DD1EA7564100B97D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 129FB9BE1EA7564000B97D79 /* AllInOneCard */;
+			targetProxy = 129FB9DC1EA7564100B97D79 /* PBXContainerItemProxy */;
+		};
+		129FB9E81EA7564100B97D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 129FB9BE1EA7564000B97D79 /* AllInOneCard */;
+			targetProxy = 129FB9E71EA7564100B97D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		129FB9CB1EA7564000B97D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				129FB9CC1EA7564000B97D79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		129FB9D31EA7564000B97D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				129FB9D41EA7564000B97D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		129FB9ED1EA7564100B97D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		129FB9EE1EA7564100B97D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		129FB9F01EA7564100B97D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		129FB9F11EA7564100B97D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		129FB9F31EA7564100B97D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllInOneCard.app/AllInOneCard";
+			};
+			name = Debug;
+		};
+		129FB9F41EA7564100B97D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AllInOneCard.app/AllInOneCard";
+			};
+			name = Release;
+		};
+		129FB9F61EA7564100B97D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AllInOneCard;
+			};
+			name = Debug;
+		};
+		129FB9F71EA7564100B97D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X8KZH3TTFJ;
+				INFOPLIST_FILE = AllInOneCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hutong.AllInOneCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AllInOneCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129FB9BA1EA7564000B97D79 /* Build configuration list for PBXProject "AllInOneCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129FB9ED1EA7564100B97D79 /* Debug */,
+				129FB9EE1EA7564100B97D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129FB9EF1EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129FB9F01EA7564100B97D79 /* Debug */,
+				129FB9F11EA7564100B97D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		129FB9F21EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129FB9F31EA7564100B97D79 /* Debug */,
+				129FB9F41EA7564100B97D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		129FB9F51EA7564100B97D79 /* Build configuration list for PBXNativeTarget "AllInOneCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129FB9F61EA7564100B97D79 /* Debug */,
+				129FB9F71EA7564100B97D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		129FB9CE1EA7564000B97D79 /* AllInOneCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				129FB9CF1EA7564000B97D79 /* AllInOneCard.xcdatamodel */,
+			);
+			currentVersion = 129FB9CF1EA7564000B97D79 /* AllInOneCard.xcdatamodel */;
+			path = AllInOneCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 129FB9B71EA7564000B97D79 /* Project object */;
+}
